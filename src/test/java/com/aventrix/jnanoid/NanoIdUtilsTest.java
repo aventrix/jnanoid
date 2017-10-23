@@ -49,7 +49,7 @@ import static org.junit.Assert.fail;
  * @author David Klebanoff
  * @see NanoIdUtils
  */
-public class NanoIdUtilsTests {
+public class NanoIdUtilsTest {
 
 
     @Test
