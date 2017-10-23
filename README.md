@@ -1,4 +1,6 @@
 # JNanoId
+[![Build Status](https://travis-ci.org/aventrix/jnanoid.svg?branch=develop)](https://travis-ci.org/aventrix/jnanoid)
+
 A unique string ID generator for Java.
 
 ```java
