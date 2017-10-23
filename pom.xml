@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aventrix.jnanoid</groupId>
     <artifactId>jnanoid</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>JNanoId</name>
     <description>A unique string ID generator for Java.</description>
@@ -131,7 +131,7 @@
         <connection>scm:git:git://github.com/aventrix/jnanoid.git</connection>
         <developerConnection>scm:git:git@github.com:aventrix/jnanoid.git</developerConnection>
         <url>https://github.com/aventrix/jnanoid</url>
-        <tag>jnanoid-1.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
     <issueManagement>
         <system>GitHub Issues</system>
