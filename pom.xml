@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.aventrix.jnanoid</groupId>
+    <artifactId>jnanoid</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>JNanoId</name>
+    <description>A unique string ID generator for Java.</description>
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-junit</artifactId>
+            <version>2.0.0.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.ekryd.sortpom</groupId>
+                <artifactId>sortpom-maven-plugin</artifactId>
+                <version>2.8.0</version>
+                <configuration>
+                    <createBackupFile>false</createBackupFile>
+                    <predefinedSortOrder>custom_1</predefinedSortOrder>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                    <sortProperties>true</sortProperties>
+                    <keepBlankLines>true</keepBlankLines>
+                    <sortDependencies>scope,type</sortDependencies>
+                    <keepBlankLines>true</keepBlankLines>
+                    <nrOfIndentSpace>4</nrOfIndentSpace>
+                    <lineSeparator>\n</lineSeparator>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>sort</goal>
+                        </goals>
+                        <phase>verify</phase>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+    <inceptionYear>2017</inceptionYear>
+    <organization>
+        <name>Aventrix</name>
+        <url>https://www.aventrix.com</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>The MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>David Klebanoff</name>
+            <email>david@aventrix.com</email>
+            <organization>Aventrix</organization>
+            <organizationUrl>https://www.aventrix.com</organizationUrl>
+            <roles>
+                <role>owner</role>
+                <role>developer</role>
+            </roles>
+            <timezone>-8</timezone>
+        </developer>
+    </developers>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/aventrix/jnanoid/issues</url>
+    </issueManagement>
+</project>
