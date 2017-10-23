@@ -3,8 +3,28 @@
 
 A unique string ID generator for Java.
 
+## Usage
+
+JNanoId provides one easy-to-use utility class to generate IDs - `NanoIdUtils`.
+
+### Standard - `randomNanoId()`
+
+The default method creates secure, url-friendly, unique ids. It uses a url-friendly alphabet (`A-Za-z0-9_~`), a secure random number generator, and generates a unique ID with 21 characters.
+
 ```java
 String id = NanoIdUtils.randomNanoId(); // "ku~qLNv1wDmIS5_EcT3j7"
+```
+
+### Custom - `NanoIdUtils.randomNanoId(random, alphabet, size);`
+
+An additional method allows you to generate custom IDs by specifying your own random number generator, alphabet, and size.
+
+```java
+Random random = new SecureRandom();
+char[] alphabet = {'a','b','c'};
+int size = 10;
+
+String id = NanoIdUtils.randomNanoId(random, alphabet, 10); // "babbcaabcb"
 ```
 
 ## Copyright and license
