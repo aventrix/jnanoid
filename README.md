@@ -5,7 +5,7 @@
 A unique string ID generator for Java. 
 
 ### Secure
-JNanoID uses Java’s SecureRandom to generate cryptographically strong random IDs with a proper distribution of characters.
+JNanoID uses Java’s [SecureRandom](https://docs.oracle.com/javase/7/docs/api/java/security/SecureRandom.html) to generate cryptographically strong random IDs with a proper distribution of characters.
 
 ### Compact
 JNanoID generates compact IDs with just 21 characters. By using a larger alphabet than UUID, JNanoID can generate a greater number of unique IDs, when compared to UUID, with fewer characters (21 versus 36).
@@ -17,7 +17,7 @@ JNanoID uses URL-friendly characters (`A-Za-z0-9_~`). Perfect for unique identif
 JNanoID is fully customizable. All default options may be overriden. Supply your own Random Number Generator, alphabet, or size.
 
 ### Tested
-JNanoID is thoroughly tested with Junit.
+JNanoID is thoroughly tested with JUnit.
 
 ## Latest Release
 
