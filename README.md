@@ -4,6 +4,21 @@
 
 A unique string ID generator for Java.
 
+
+## Latest Release
+
+The most recent release is JNanoId 1.0.1.
+
+### Maven
+
+```xml
+<dependency>
+  <groupId>com.aventrix.jnanoid</groupId>
+  <artifactId>jnanoid</artifactId>
+  <version>1.0.1</version>
+</dependency>
+```
+
 ## Usage
 
 JNanoId provides one easy-to-use utility class (`NanoIdUtils`) with two methods to generate IDs.
