@@ -65,8 +65,19 @@ Based on the original [NanoId](https://github.com/ai/nanoid) for JavaScript by [
 
 ## Other Programming Languages
 
-* [JavaScript](https://github.com/ai/nanoid)
+* [C#](https://github.com/codeyu/nanoid-net)
+* [Clojure and ClojureScript](https://github.com/zelark/nano-id)
+* [Crystal](https://github.com/mamantoha/nanoid.cr)
+* [Dart](https://github.com/pd4d10/nanoid)
 * [Go](https://github.com/matoous/go-nanoid)
+* [Elixir](https://github.com/railsmechanic/nanoid)
+* [Haskell](https://github.com/4e6/nanoid-hs)
+* [JavaScript](https://github.com/ai/nanoid)
 * [PHP](https://github.com/hidehalo/nanoid-php)
 * [Python](https://github.com/puyuan/py-nanoid)
 * [Ruby](https://github.com/radeno/nanoid.rb)
+* [Rust](https://github.com/nikolay-govorov/nanoid)
+
+Also, a [CLI tool] is available to generate IDs from the command line.
+
+[CLI tool]: https://github.com/twhitbeck/nanoid-cli
