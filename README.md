@@ -77,6 +77,7 @@ Based on the original [NanoId](https://github.com/ai/nanoid) for JavaScript by [
 * [Python](https://github.com/puyuan/py-nanoid)
 * [Ruby](https://github.com/radeno/nanoid.rb)
 * [Rust](https://github.com/nikolay-govorov/nanoid)
+* [Swift](https://github.com/antiflasher/NanoID)
 
 Also, a [CLI tool] is available to generate IDs from the command line.
 
