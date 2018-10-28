@@ -73,6 +73,7 @@ Based on the original [NanoId](https://github.com/ai/nanoid) for JavaScript by [
 * [Elixir](https://github.com/railsmechanic/nanoid)
 * [Haskell](https://github.com/4e6/nanoid-hs)
 * [JavaScript](https://github.com/ai/nanoid)
+* [Nim](https://github.com/icyphox/nanoid.nim)
 * [PHP](https://github.com/hidehalo/nanoid-php)
 * [Python](https://github.com/puyuan/py-nanoid)
 * [Ruby](https://github.com/radeno/nanoid.rb)
