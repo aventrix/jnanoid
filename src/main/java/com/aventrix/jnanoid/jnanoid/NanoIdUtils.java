@@ -55,7 +55,7 @@ public final class NanoIdUtils {
      * Creates url-friendly NanoId Strings using 64 unique symbols.
      */
     public static final char[] DEFAULT_ALPHABET =
-            "_~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+            "_-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
 
     /**
      * The default size used by this class.

@@ -94,7 +94,7 @@ public class NanoIdUtilsTest {
         final Random random = new Random(12345);
 
         final char[] alphabet =
-                ("_~0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
+                ("_-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ").toCharArray();
 
         final int size = 21;
 
