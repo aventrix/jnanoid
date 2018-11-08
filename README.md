@@ -33,6 +33,12 @@ The most recent release is JNanoId 2.0.0.
 </dependency>
 ```
 
+### Gradle
+
+```groovy
+compile 'com.aventrix.jnanoid:jnanoid:2.0.0'
+```
+
 ## Usage
 
 JNanoId provides one easy-to-use utility class (`NanoIdUtils`) with two methods to generate IDs.
