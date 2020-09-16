@@ -36,7 +36,7 @@ The most recent release is JNanoId 2.0.0.
 ### Gradle
 
 ```groovy
-compile 'com.aventrix.jnanoid:jnanoid:2.0.0'
+implementation 'com.aventrix.jnanoid:jnanoid:2.0.0'
 ```
 
 ## Usage
