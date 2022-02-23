@@ -78,6 +78,20 @@ public final class NanoIdUtils {
     }
 
     /**
+     * Static factory to retrieve a url-friendly, pseudo randomly generated, NanoId String.
+     *
+     * The NanoId String is generated using a cryptographically strong pseudo random number
+     * generator.
+     *
+     * @param size     The number of symbols in the NanoId String.
+     *
+     * @return A randomly generated NanoId String.
+     */
+    public static String randomNanoId(int size) {
+        return randomNanoId(DEFAULT_NUMBER_GENERATOR, DEFAULT_ALPHABET, size);
+    }
+
+    /**
      * Static factory to retrieve a NanoId String.
      *
      * The string is generated using the given random number generator.
@@ -125,10 +139,7 @@ public final class NanoIdUtils {
                         return idBuilder.toString();
                     }
                 }
-
             }
-
         }
-
     }
 }
