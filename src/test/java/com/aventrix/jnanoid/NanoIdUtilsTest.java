@@ -151,6 +151,19 @@ public class NanoIdUtilsTest {
     }
 
     @Test
+    public void NanoIdUtils_DefinedSizes_Success() {
+
+        //Test ID generation with all sizes between 1 and 1,000.
+        for (int size = 1; size <= 1000; size++) {
+
+            final String id = NanoIdUtils.randomNanoId(size);
+
+            assertEquals(size, id.length());
+        }
+
+    }
+
+    @Test
     public void NanoIdUtils_WellDistributed_Success() {
 
         //Test if symbols in the generated IDs are well distributed.
