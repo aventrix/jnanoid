@@ -66,7 +66,7 @@ char[] alphabet = {'a','b','c'};
 // Make IDs 10 characters long
 int size = 10;
 
-String id = NanoIdUtils.randomNanoId(random, alphabet, 10); // "babbcaabcb"
+String id = NanoIdUtils.randomNanoId(random, alphabet, size); // "babbcaabcb"
 ```
 
 ## Copyright and license
