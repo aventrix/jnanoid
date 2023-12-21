@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.aventrix.jnanoid</groupId>
-    <artifactId>jnanoid</artifactId>
-    <version>2.0.1-SNAPSHOT</version>
+    <groupId>com.soundicly.jnanoidenhanced</groupId>
+    <artifactId>jnanoid-enhanced</artifactId>
+    <version>2.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>JNanoId</name>
+    <name>JNanoId-Enhanced</name>
     <description>A unique string ID generator for Java.</description>
     <properties>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -101,11 +101,11 @@
             </plugin>
         </plugins>
     </build>
-    <url>https://github.com/aventrix/jnanoid</url>
-    <inceptionYear>2017</inceptionYear>
+    <url>https://github.com/Soundicly/jnanoid-enhanced</url>
+    <inceptionYear>2023</inceptionYear>
     <organization>
-        <name>Aventrix</name>
-        <url>https://www.aventrix.com</url>
+        <name>Soundicly</name>
+        <url>https://github.com/Soundicly</url>
     </organization>
     <licenses>
         <license>
@@ -126,16 +126,27 @@
             </roles>
             <timezone>-8</timezone>
         </developer>
+        <developer>
+            <name>Pol Vallverdu</name>
+            <email>pol@soundicly.com</email>
+            <organization>Soundicly</organization>
+            <organizationUrl>https://soundicly.com</organizationUrl>
+            <roles>
+                <role>owner</role>
+                <role>developer</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
     </developers>
     <scm>
-        <connection>scm:git:git://github.com/aventrix/jnanoid.git</connection>
-        <developerConnection>scm:git:git@github.com:aventrix/jnanoid.git</developerConnection>
-        <url>https://github.com/aventrix/jnanoid</url>
+        <connection>scm:git:git://github.com/Soundicly/jnanoid-enhanced.git</connection>
+        <developerConnection>scm:git:git@github.com:Soundicly/jnanoid-enhanced.git</developerConnection>
+        <url>https://github.com/Soundicly/jnanoid-enhanced</url>
         <tag>HEAD</tag>
     </scm>
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/aventrix/jnanoid/issues</url>
+        <url>https://github.com/Soundicly/jnanoid-enhanced/issues</url>
     </issueManagement>
     <distributionManagement>
         <repository>

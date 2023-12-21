@@ -21,9 +21,9 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package com.aventrix.jnanoid;
+package com.soundicly.jnanoidenhanced;
 
-import com.aventrix.jnanoid.jnanoid.NanoIdUtils;
+import com.soundicly.jnanoidenhanced.jnanoid.NanoIdUtils;
 
 import org.hamcrest.Matchers;
 import org.junit.Test;
