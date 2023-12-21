@@ -23,6 +23,7 @@
 
 package com.soundicly.jnanoidenhanced.jnanoid;
 
+import java.math.RoundingMode;
 import java.security.SecureRandom;
 import java.util.Random;
 
@@ -41,7 +42,7 @@ public final class NanoIdUtils {
      * Instead, the class should be used as <code>NanoIdUtils.randomNanoId();</code>.
      */
     private NanoIdUtils() {
-        //Do Nothing
+        throw new IllegalStateException();
     }
 
     /**
@@ -105,14 +106,18 @@ public final class NanoIdUtils {
             throw new IllegalArgumentException("size must be greater than zero.");
         }
 
-        final int mask = (2 << (int) Math.floor(Math.log(alphabet.length - 1) / Math.log(2))) - 1;
+        if(alphabet.length == 1){
+            return repeat(alphabet[0], size);
+        }
+
+        final int mask = (2 << MathUtils.log2(alphabet.length - 1, RoundingMode.FLOOR)) - 1;
         final int step = (int) Math.ceil(1.6 * mask * size / alphabet.length);
 
-        final StringBuilder idBuilder = new StringBuilder();
+        final StringBuilder idBuilder = new StringBuilder(size);
+        final byte[] bytes = new byte[step];
 
         while (true) {
 
-            final byte[] bytes = new byte[step];
             random.nextBytes(bytes);
 
             for (int i = 0; i < step; i++) {
@@ -130,5 +135,13 @@ public final class NanoIdUtils {
 
         }
 
+    }
+
+    private static String repeat(char c, int size){
+        StringBuilder builder = new StringBuilder(size);
+        for(int i=0; i< size;++i){
+            builder.append(c);
+        }
+        return builder.toString();
     }
 }
