@@ -1,6 +1,6 @@
 package com.soundicly.jnanoidenhanced;
 
-import com.aventrix.jnanoid.jnanoid.MathUtils;
+import com.soundicly.jnanoidenhanced.jnanoid.MathUtils;
 import org.junit.Test;
 
 import java.math.BigDecimal;

@@ -1,5 +1,7 @@
 package com.soundicly.jnanoidenhanced;
 
+import com.soundicly.jnanoidenhanced.jnanoid.MathUtils;
+import com.soundicly.jnanoidenhanced.jnanoid.NanoIdUtils;
 import org.junit.Test;
 
 import java.lang.reflect.Constructor;
